@@ -1,14 +1,15 @@
 {
   "name": "vuejs-starter-kit",
-  "description": "Base Vue JS Template used by Amiculum Digital Development Team",
   "version": "1.0.0",
   "private": true,
+  "description": "Base Vue JS Template used by Amiculum Digital Development Team",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "register-service-worker": "^1.5.2",
     "vee-validate": "^2.1.7",
     "vue": "^2.6.2",
     "vue-router": "^3.0.1",
@@ -17,6 +18,7 @@
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.3.0",
     "@vue/cli-plugin-eslint": "^3.3.0",
+    "@vue/cli-plugin-pwa": "^3.4.0",
     "@vue/cli-service": "^3.3.0",
     "@vue/eslint-config-standard": "^4.0.0",
     "axios": "^0.18.0",
